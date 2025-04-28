@@ -596,24 +596,12 @@
 
 
 
-    <section class="step section-pd bg-dairi contact contact_space">
+    <section class="step section-pd bg-dairi contact contact_space" id="contact-form">
       <div class="step__inner">
         <div class="step__ttl slide-ttl js-scrollAnimation contactspace">
           <img src="img/contact.png" alt="step" class="mb-20">
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-        <section class="list-page__main" id="contact-form">
+        <section class="list-page__main">
           <section class="l-form-container">
             <form action="send.php" method="POST" enctype="application/x-www-form-urlencoded" class="js__form" data-gtm-form-interact-id="0">
               <div class="l-form-container__inner">
@@ -868,25 +856,7 @@
   <script type="text/javascript"
     src="https://naoru-recruit.com/wp-content/plugins/contact-form-7-multi-step-module/resources/cf7msm.min.js?ver=4.4"
     id="cf7msm-js"></script>
-  <script>
-    // ページの読み込み完了時に3秒間 overflow: hidden を適用
-    $(window).on("load", function () {
-      $("body").css("overflow", "hidden");
-      // overflow: hidden を適用
 
-      setTimeout(function () {
-        $("body").css("overflow", "");
-        // 3秒後に元に戻す
-      }, 3000);
-      // 3000ミリ秒 (3秒) の遅延
-
-      setTimeout(function () {
-        $(window).trigger("scroll");
-        // 5秒後にスクロールイベントをトリガー
-      }, 3000);
-      // 5000ミリ秒 (5秒) の遅延
-    });
-  </script>
 </body>
 
 </html>

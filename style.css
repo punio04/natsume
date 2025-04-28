@@ -972,6 +972,8 @@ dl {
   width: calc(100% - (220 / 1920 * 100vw));
   margin-right: auto;
   margin-left: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .contents-width-s {
