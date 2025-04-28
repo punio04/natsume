@@ -100,7 +100,7 @@
 @media (max-width: 768px) {
   .fv-a {
     background-image: url(./img/fv-sp-back.png);
-    height: calc(1500 / 750 * 100vw);
+    height: calc(1500 / 950 * 100vw);
   }
 
   .fv-pc-person01,
@@ -111,8 +111,8 @@
   }
 
   .fv-pc-person01 {
-    width: calc(1570 / 1920 * 100vw);
-    top: calc(1068 / 1920 * 100vw);
+    width: calc(1400 / 1920 * 100vw);
+    top: calc(0 / 1920 * 100vw);
     z-index: 4;
     transform: translate3d(100%, 0, 0);
   }
@@ -122,7 +122,8 @@
   }
 
   .fv-pc-person01 {
-    left: calc(-398 / 1920 * 100vw);
+    left: calc(-490 / 1920 * 100vw);
+    -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
   }
 
   .fv-pc-person02 {
@@ -149,11 +150,12 @@
   }
 
   .fv-pc-person04 {
-    width: calc(1188 / 1920 * 100vw);
-    top: calc(-60 / 1920 * 100vw);
-    right: 24px;
+    width: calc(1004 / 1920 * 100vw);
+    top: calc(490 / 1920 * 100vw);
+    right: 16px;
     z-index: 1;
     transform: translate3d(100%, 0, 0);
+    -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
   }
 
   .fv-pc-person04.is-animated {
@@ -163,7 +165,7 @@
   .fv-pc-hataraki {
     width: calc(1300 / 1920* 100vw);
     top: calc(150 / 1920* 100vw);
-    left: calc(20 / 1920* 100vw);
+    left: calc(345 / 1920* 100vw);
     z-index: 5;
   }
 
@@ -181,8 +183,8 @@
 
   .fv-pc-three {
     width: 100%;
-    top: calc(2127 / 1920* 100vw);
-    left: calc(0 / 1920* 100vw);
+    top: calc(2200 / 1920 * 100vw);
+    left: calc(0 / 1920 * 100vw);
     z-index: 5;
   }
 }
