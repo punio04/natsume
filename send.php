@@ -16,8 +16,8 @@ $form_data = $_POST;
 
 // 🔹送信先メールアドレス
 $recipients = [
-  '管理者1のメールアドレス',
-  '管理者2のメールアドレス'
+  'gude_0417@icloud.com',
+  'akari_0417@i.softbank.jp'
 ];
 
 $mail = new PHPMailer(true);
