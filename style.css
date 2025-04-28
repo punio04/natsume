@@ -7233,17 +7233,17 @@ a.header__ctt.flex-center.f-26.baibu-btn.flex-center {
   }
 
   .about__two>img:nth-child(2) {
-    margin-top: calc((175 / 1920) * 490vw);
-    margin-right: calc((2 / 1920) * 490vw);
+    margin-top: calc((218 / 1920) * 490vw);
+    margin-right: calc((0 / 1920) * 490vw);
   }
 
   .about__two>img {
-    width: 120px;
+    width: 88px;
   }
 
   .about__two>img:nth-child(1) {
-    margin-right: calc((204 / 1920) * 490vw);
-    margin-top: calc((175.3 / 1920) * 490vw);
+    margin-right: calc((208 / 1920) * 490vw);
+    margin-top: calc((217.3 / 1920) * 490vw);
   }
 
   .img>img,
