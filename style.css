@@ -7237,11 +7237,13 @@ a.header__ctt.flex-center.f-26.baibu-btn.flex-center {
   .about__two>img:nth-child(2) {
     margin-top: calc((66 / 1920) * 490vw);
     margin-right: calc((0 / 1920) * 490vw);
+            -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
   }
 
   .about__two>img:nth-child(1) {
     margin-right: calc((208 / 1920) * 490vw);
     margin-top: calc((66.3 / 1920) * 490vw);
+            -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
   }
 
   .img>img,
@@ -7598,11 +7600,13 @@ a.header__ctt.flex-center.f-26.baibu-btn.flex-center {
   .about__two>img:nth-child(1) {
     margin-right: calc((208 / 1920) * 490vw);
     margin-top: calc((192.3 / 1920) * 490vw);
+    -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
   }
 
   .about__two>img:nth-child(2) {
     margin-top: calc((192 / 1920) * 490vw);
     margin-right: calc((0 / 1920) * 490vw);
+            -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
   }
 
   .about__two>img {
