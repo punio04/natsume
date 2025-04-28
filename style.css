@@ -969,7 +969,7 @@ dl {
 }
 
 .contents-width {
-  width: calc(100% - (490 / 1920 * 100vw));
+  width: calc(100% - (220 / 1920 * 100vw));
   margin-right: auto;
   margin-left: auto;
 }
@@ -1277,7 +1277,7 @@ img.btn-icon {
 
   img.btn-icon {
     right: 88% !important;
-    width: calc(120 / 1920 * 100vw) !important;
+    width: calc(88 / 1920 * 100vw) !important;
   }
 
   /* tenkaiセクション */
@@ -1913,14 +1913,14 @@ img.btn-icon {
   }
 
   .a-btn {
-    width: 310px;
-    height: 70px;
+    width: 510px;
+    height: 80px;
     font-size: 28px;
   }
 
   .b-btn {
-    width: 310px;
-    height: 70px;
+    width: 510px;
+    height: 80px;
     font-size: 28px;
   }
 
@@ -3902,8 +3902,8 @@ h3 {
 @media print,
 screen and (max-width: 760px) {
   .l-footer {
-    padding-top: 18%;
-    padding-bottom: 18%;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
@@ -5120,7 +5120,7 @@ screen and (max-width: 740px) {
 @media print,
 screen and (min-width: 761px) {
   .list-page__main {
-    width: 1200px;
+    width: auto;
   }
 }
 
@@ -7233,17 +7233,13 @@ a.header__ctt.flex-center.f-26.baibu-btn.flex-center {
   }
 
   .about__two>img:nth-child(2) {
-    margin-top: calc((218 / 1920) * 490vw);
+    margin-top: calc((66 / 1920) * 490vw);
     margin-right: calc((0 / 1920) * 490vw);
-  }
-
-  .about__two>img {
-    width: 88px;
   }
 
   .about__two>img:nth-child(1) {
     margin-right: calc((208 / 1920) * 490vw);
-    margin-top: calc((217.3 / 1920) * 490vw);
+    margin-top: calc((66.3 / 1920) * 490vw);
   }
 
   .img>img,
@@ -7351,10 +7347,6 @@ a.header__ctt.flex-center.f-26.baibu-btn.flex-center {
     background-color: #fff;
   }
 
-  .p-item-info__address {
-    padding-bottom: 18px;
-  }
-
   .l-footer__company .p-item-info__tel {
     margin-top: 0vw;
     font-size: 18px;
@@ -7371,8 +7363,285 @@ a.header__ctt.flex-center.f-26.baibu-btn.flex-center {
   .f19ib2oq>.body>.items>.item>.answer>.content:before {
     top: -5px;
   }
+
+  .l-form-container {
+    padding: 0px 0px 0px 0px;
+    color: var(--brick--color--light-text);
+  }
+
+  .l-footer__company {
+    width: auto;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+
+  .step__inner {
+    padding-bottom: 0px;
+  }
+
+  .contact_space {
+    padding-bottom: 50px !important;
+  }
 }
 
 .content {
   font-size: 18px;
+}
+
+
+
+
+
+
+
+@media (max-width: 550px) {
+  .insta__container-inner {
+    flex-direction: column;
+  }
+
+  .insta__insta {
+    border: 1px solid #454545;
+    position: relative;
+    width: 80%;
+    border: unset;
+    margin: 0 auto 80px;
+  }
+
+  .insta__insta>img {
+    width: calc(100% - 40px);
+    height: auto;
+    padding: 30px 20px 40px;
+    border: 1px solid #454545;
+  }
+
+  .insta__insta>a {
+    width: 206px;
+    height: 47px;
+    font-size: 16px;
+    bottom: -27px;
+  }
+
+  .btn-wrapper>img {
+    width: 160px;
+    margin: 0 auto 15px;
+  }
+
+  .insta__container-inner02 {
+    margin-bottom: 0;
+  }
+
+  .a-btn {
+    width: 310px;
+    height: 70px;
+    font-size: 28px;
+  }
+
+  .b-btn {
+    width: 310px;
+    height: 70px;
+    font-size: 28px;
+  }
+
+  .cta-form {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    flex-direction: column;
+  }
+
+  p.reason__txt.f-26.a-section.js-scrollAnimation.is-animated {
+    padding: 0 20px;
+  }
+
+  .a-btn>img {
+    width: 16px;
+    height: 20px;
+  }
+
+  .b-btn>img {
+    width: 16px;
+    height: 20px;
+  }
+
+  .a-btn::after {
+    height: 70px;
+    bottom: -5px;
+  }
+
+  .b-btn::after {
+    height: 70px;
+    bottom: -5px;
+  }
+
+  .a-btn:active {
+    bottom: -5px;
+  }
+
+  .l-footer__company {
+    width: auto;
+    margin: 0 auto;
+    padding: 0 0px;
+  }
+
+  .b-btn:active {
+    bottom: -5px;
+  }
+
+  .l-footer__copy {
+    margin: 16px 16px 0 16px;
+    line-height: 1.4;
+  }
+
+  .shashin__inner {
+    overflow: hidden;
+  }
+
+  .shashin__inner {
+    width: calc(1710 / 1920 * 100vw);
+    margin: 0 auto;
+  }
+
+  .shashin__spimg-long {
+    background-image: url(../img/shashin-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -43px;
+    background-position-y: 10px;
+    margin-bottom: 10px;
+  }
+
+  .shashin__spimg-wrapper {
+    overflow: hidden;
+    position: relative;
+    width: max-content;
+  }
+
+  .shashin__spimg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 !important;
+  }
+
+  .shashin__contents {
+    margin: 10px;
+    display: inline-block;
+  }
+
+  .shashin__contents>p {
+    margin-bottom: 10px;
+  }
+
+  .shashin__contents>img {
+    width: 160px;
+    height: 90px;
+  }
+
+  .header {
+    padding: 0;
+    height: auto;
+  }
+
+  .main {
+    padding-top: 50px;
+  }
+
+  .p-item-info__tel {
+    margin-bottom: 15px;
+  }
+
+  .header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 10px 0;
+  }
+
+  .header__logo {
+    width: 90px;
+    top: 0;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__ctt {
+    width: 250px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: transparent !important;
+  }
+
+  img.btn-icon {
+    right: 88% !important;
+    width: calc(120 / 1920 * 100vw) !important;
+  }
+
+  /* tenkaiセクション */
+  .tenkai__map {
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .tenkai__map>img {
+    width: 100%;
+  }
+
+  .tenkai__map>img:nth-child(1) {
+    margin: 0;
+  }
+
+  .about__two>img:nth-child(1) {
+    margin-right: calc((208 / 1920) * 490vw);
+    margin-top: calc((192.3 / 1920) * 490vw);
+  }
+
+  .about__two>img:nth-child(2) {
+    margin-top: calc((192 / 1920) * 490vw);
+    margin-right: calc((0 / 1920) * 490vw);
+  }
+
+  .about__two>img {
+    width: 88px;
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  .about__two>img:nth-child(1) {
+    margin-right: calc((208 / 1920) * 490vw);
+    margin-top: calc((217.3 / 1920) * 490vw);
+  }
+
+  .about__two>img:nth-child(2) {
+    margin-top: calc((218 / 1920) * 490vw);
+    margin-right: calc((0 / 1920) * 490vw);
+  }
+
+  .about__two>img {
+    width: 88px;
+  }
+
+}
+
+
+@media (max-width: 320px) {
+
+  .about__two>img:nth-child(1) {
+    margin-right: calc((208 / 1920) * 490vw);
+    margin-top: calc((261.3 / 1920) * 490vw);
+  }
+
+  .about__two>img:nth-child(2) {
+    margin-top: calc((259 / 1920) * 490vw);
+    margin-right: calc((0 / 1920) * 490vw);
+  }
+
+  .about__two>img {
+    width: 74px;
+  }
+
 }
