@@ -5053,7 +5053,7 @@ screen and (max-width: 740px) {
   }
 
   .brick-buttons__button-submit:disabled {
-            background-color: #ff8600;
+    background-color: #ff8600;
     cursor: not-allowed;
   }
 }
@@ -5838,12 +5838,12 @@ screen and (max-width: 760px) {
 @media print,
 screen and (max-width: 760px) {
   .brick-buttons__button-submit {
-            background-color: #ff8600;
+    background-color: #ff8600;
   }
 
   .brick-buttons__button-submit:disabled {
     color: var(--brick--color--button-disabled-text);
-            background-color: #ff8600;
+    background-color: #ff8600;
     cursor: not-allowed;
   }
 }
@@ -6291,7 +6291,7 @@ screen and (min-width: 741px) {
     font-size: 1.4em;
     font-weight: 700;
     text-align: center;
-          background-color: #ff8600;
+    background-color: #ff8600;
     transition: background-color 200ms;
   }
 
@@ -6331,7 +6331,7 @@ screen and (max-width: 740px) {
     font-size: 1.14em;
     font-weight: 700;
     text-align: center;
-            background-color: #ff8600;
+    background-color: #ff8600;
     transition: background-color 200ms;
   }
 
@@ -6419,6 +6419,7 @@ screen and (max-width: 760px) {
 html {
   scroll-behavior: smooth;
 }
+
 *,
 ::before,
 ::after {
@@ -7232,17 +7233,17 @@ a.header__ctt.flex-center.f-26.baibu-btn.flex-center {
   }
 
   .about__two>img:nth-child(2) {
-    margin-top: calc((139 / 1920) * 490vw);
+    margin-top: calc((175 / 1920) * 490vw);
     margin-right: calc((2 / 1920) * 490vw);
   }
 
   .about__two>img {
-    width: 110px;
+    width: 120px;
   }
 
   .about__two>img:nth-child(1) {
-    margin-right: calc((164 / 1920) * 490vw);
-    margin-top: calc((139.3 / 1920) * 490vw);
+    margin-right: calc((204 / 1920) * 490vw);
+    margin-top: calc((175.3 / 1920) * 490vw);
   }
 
   .img>img,
