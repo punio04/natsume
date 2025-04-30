@@ -2,861 +2,526 @@
 <html lang="ja">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>なつめ整体院</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <meta charset="utf-8" />
+  <title>ハレガケ｜フルオーダーメイドの地域周遊謎解き</title>
+  <meta name="description" content="地域の魅力を活かした謎解きイベントをフルオーダーメイドでご提供。集客力UP・ブランディング強化・リピーター獲得へ導きます。">
+
+  <!-- レスポンシブ対応 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- OGP設定 -->
+  <meta property="og:title" content="ハレガケ｜フルオーダーメイドの地域周遊謎解き" />
+  <meta property="og:description" content="地域の魅力を活かした謎解きイベントをフルオーダーメイドでご提供。集客力UP・ブランディング強化・リピーター獲得へ導きます。" />
+  <meta property="og:image" content="https://example.com/ogp.jpg" /> <!-- ←実際の画像URLに差し替えてね -->
+  <meta property="og:url" content="https://example.com/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- ファビコン -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="favicon.ico" />
+
+  <!-- CSS読み込み -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- GA4タグ -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KV3K17YBC2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-KV3K17YBC2');
+  </script>
 </head>
-<header class="header">
-  <div class="header__inner contents-width">
-    <div class="header__logo img">
-      <img src="img/logo.png" alt="logo">
-    </div>
-    <div class="header__nav f-16">
-      <a href="#philosophy">理念</a>
-      <a href="#feature">5つの特徴</a>
-      <a href="#voice">スタッフからの声</a>
-      <a href="#flow">1日の流れ</a>
-      <a href="#boshuu">募集要項</a>
-      <a href="#contact-form" class="header__ctt flex-center f-26 baibu-btn flex-center"><img src="img/header_cta.png"
-          alt="logo"></a>
-    </div>
-    <button class="mobileBtn sp">
-      <span class="mobileBtn__bar"></span>
-      <span class="mobileBtn__bar"></span>
-      <span class="mobileBtn__bar"></span>
-    </button>
-  </div>
-</header>
-<div class="mobile">
-  <div class="mobile__inner">
-    <ul class="mobile__ul">
-      <li class="header__li mobile__li">
-        <a class="header__mb-a" href="#philosophy">理念</a>
-      </li>
-      <li class="header__li mobile__li">
-        <a class="header__mb-a" href="#feature">5つの特徴</a>
-      </li>
-      <li class="header__li mobile__li">
-        <a class="header__mb-a" href="#voice">スタッフからの声</a>
-      </li>
-      <li class="header__li mobile__li">
-        <a class="header__mb-a" href="#flow">1日の流れ</a>
-      </li>
-      <li class="header__li mobile__li">
-        <a class="header__mb-a" href="#boshuu">募集要項</a>
-      </li>
-      <a href="#contact-form" class="header__ctt flex-center f-26 baibu-btn flex-center"><img src="img/header_cta.png"
-          alt="logo"></a>
-    </ul>
-  </div>
-</div>
-
-<body class="body">
-  <main class="main">
-    <section class="fv-a pc">
-      <img src="img/fv_left.png" class="fv-amt fv-pc-person01 js-loading" alt="element">
-      <img src="img/fv_right.png" class="fv-amt fv-pc-person04 js-loading" alt="element">
-      <img src="img/fv_title.png" class="fv-abs fv-pc-hataraki js-loading" alt="element">
-      <img src="img/medal.png" class="fv-amt fv-pc-three a-section js-loading" alt="element">
-
-    </section>
-    <section class="fv-a sp">
-      <img src="img/fv_left.png" class="fv-amt fv-pc-person01 js-loading" alt="element">
-      <img src="img/fv_right.png" class="fv-amt fv-pc-person04 js-loading" alt="element">
-      <img src="img/fv-sp-title.png" class="fv-abs fv-pc-hataraki js-loading" alt="element">
-      <img src="img/medal.png" class="fv-amt fv-pc-three a-section js-loading" alt="element">
-    </section>
-    <section class="tenkai section-pd" id="tenkai" style="background-color: #d2d6f2;">
-      <div class="tenkai__inner contents-width">
-        <div class="tenkai__map pc_only">
-          <img class="bounce-down js-scrollAnimation" src="img/recruiting.png" alt="map">
-        </div>
-        <div class="tenkai__map sp_only">
-          <img class="bounce-down js-scrollAnimation" src="img/recruiting_sp.png" alt="map">
-        </div>
-      </div>
-    </section>
 
 
-    <section class="reason section-pd celebration" id="reason">
-      <div class="reason__inner contents-width">
-        <div class="reason__carrier img mb-100 a-section js-scrollAnimation pc_only">
-          <img src="img/celebrationmoney.png" alt="reason-carrier">
-        </div>
-        <div class="reason__carrier img mb-100 a-section js-scrollAnimation sp_only">
-          <img src="img/celebrationmoney_sp.png" alt="reason-carrier">
-        </div>
-      </div>
-      <div class="btn-wrapper insta__btn a-section js-scrollAnimation mb-50 is-animated">
-        <div class="cta-form">
+<body>
+  <div class="main_container pc-only">
+    <main class="site-main pc-only">
+      <div class="top-section">
+        <header class="site-header active_nav" id="site-header">
+          <div class="container header_inner">
+            <h1 class="header-logo">
+              <img src="img/logo.png" alt="ハレガケロゴ" />
+            </h1>
+            <div class="openbtn"><span></span><span></span><span></span></div>
+            <!-- .header-logo -->
+            <nav class="header-nav">
+              <ul class="global-menu g_navi">
+                <li class="global-menu-item navi_title pc-only">
+                  <a href="#possible" class="global-menu-link">ハレガケについて</a>
+                </li>
+                <li class="global-menu-item navi_title">
+                  <a href="#fanservice" class="global-menu-link">地域活性について</a>
+                </li>
+                <li class="global-menu-item navi_title pc-only">
+                  <a href="#merit" class="global-menu-link">謎解きのメリット</a>
+                </li>
+                <li class="global-menu-item navi_title">
+                  <a href="#achievements" class="global-menu-link">過去実績</a>
+                </li>
+                <li class="global-menu-item navi_title">
+                  <a href="#sample" class="global-menu-link">サンプル問題</a>
+                </li>
+                <li class="global-menu-item navi_title">
+                  <a href="#flow" class="global-menu-link">開催までの流れ</a>
+                </li>
+              </ul>
 
-          <div class="btn_box">
-            <a href="https://page.line.me/484elera?openQrModal=true" class="a-btn baibu-btn f-40 flex-center">
-              <img src="img/line_icon.png" alt="スマホアイコン" class="btn-icon">
-              LINEで応募する
-              <img src="img/white-arrow.png" alt="white-arrow" class="arrow-icon">
-            </a>
+              <ul class="global-menu-sub-item sp-only">
+                <li class="global-menu-item">
+                  <a href="#" target="_blank">会社概要</a>
+                </li>
+                <li class="global-menu-item">
+                  <a href="#" target="_blank">利用規約</a>
+                </li>
+                <li class="global-menu-item">
+                  <a href="#" target="_blank">プライバシーポリシー</a>
+                </li>
+              </ul>
+              <div class="header-nav--copyright sp-only">
+                &copy; fcafe Inc. All Rights Reserved.
+              </div>
+              <!-- .action-menu -->
+            </nav>
+            <!-- .header-nav -->
           </div>
-
-          <div class="btn_box">
-            <a href="#contact-form" class="b-btn baibu-btn f-40 flex-center">
-              <img src="img/mail_icon.png" alt="メールアイコン" class="btn-icon">
-              メールで応募する
-              <img src="img/white-arrow.png" alt="white-arrow" class="arrow-icon">
-            </a>
-          </div>
-
-        </div>
-      </div>
-
-      <p class="reason__txt f-26 a-section js-scrollAnimation" style="color: #fff;">
-        ※募集定員に達した場合、募集を締め切りますのでお早めにご応募ください。
-      </p>
-    </section>
-
-    <section class="about bg-dairi section-pd philosophy" id="philosophy">
-      <div class="about__inner">
-        <img src="img/philosophy.png" class="about__ttl mb-50 slide-ttl js-scrollAnimation" alt="about-element">
-        <img src="img/philosophy_title.png" class="about__rinen left-slide js-scrollAnimation mb-50 pc_only"
-          alt="about-element">
-        <img src="img/philosophy_title_sp.png" class="about__rinen left-slide js-scrollAnimation mb-50 sp_only"
-          alt="about-element">
-        <div class="about__two">
-          <img src="img/philosophy_left.png" class="bounce-right js-scrollAnimation" alt="about-element">
-          <img src="img/philosophy_right.png" class="bounce-down js-scrollAnimation" alt="about-element">
-        </div>
-      </div>
-    </section>
-
-    <section class="step section-pd bg-dairi" id="feature">
-      <div class="step__inner">
-        <div class="step__ttl slide-ttl js-scrollAnimation pc_only">
-          <img src="img/feature_title.png" alt="step" class="mb-20">
-        </div>
-        <div class="step__ttl slide-ttl js-scrollAnimation sp_only">
-          <img src="img/feature_title_sp.png" alt="step" class="mb-20">
-        </div>
-        <div class="step__container img a-section js-scrollAnimation feature pc_only">
-          <img src="img/feature01.webp" alt="step-img">
-        </div>
-        <div class="step__container img a-section js-scrollAnimation feature sp_only">
-          <img src="img/feature01_sp.png" alt="step-img">
-        </div>
-        <div class="step__container img a-section js-scrollAnimation feature pc_only">
-          <img src="img/feature02.webp" alt="step-img">
-        </div>
-        <div class="step__container img a-section js-scrollAnimation feature sp_only">
-          <img src="img/feature02_sp.png" alt="step-img">
-        </div>
-        <div class="step__container img a-section js-scrollAnimation feature pc_only">
-          <img src="img/feature03.webp" alt="step-img">
-        </div>
-        <div class="step__container img a-section js-scrollAnimation feature sp_only">
-          <img src="img/feature03_sp.png" alt="step-img">
-        </div>
-        <div class="step__container img a-section js-scrollAnimation feature pc_only">
-          <img src="img/feature04.webp" alt="step-img">
-        </div>
-        <div class="step__container img a-section js-scrollAnimation feature sp_only">
-          <img src="img/feature04_sp.png" alt="step-img">
-        </div>
-        <div class="step__container img a-section js-scrollAnimation pc_only">
-          <img src="img/feature05.webp" alt="step-img">
-        </div>
-        <div class="step__container img a-section js-scrollAnimation sp_only">
-          <img src="img/feature05_sp.png" alt="step-img">
-        </div>
-      </div>
-    </section>
-
-
-
-    <section class="message section-pd benefits" id="message">
-      <div class="message__inner">
-        <div class="step__ttl message__ttl slide-ttl js-scrollAnimation">
-
-          <h2 class="sub-ttl f-60 mb-100 benefits-ttl">
-            充実した福利厚生で<br>
-            働きやすい環境を<br class="sp">整備しています
-          </h2>
-        </div>
-        <div class="message__staff-wrapper contents-width scroll-bar mb-100">
-          <div class="message__staff up-wrapper js-scrollAnimation">
-            <div class="message__staff-contents img up-1">
-              <img src="img/benefits01.webp" alt="staff">
-            </div>
-            <div class="message__staff-contents img up-2">
-              <img src="img/benefits02.webp" alt="staff">
-            </div>
-            <div class="message__staff-contents img up-3">
-              <img src="img/benefits03.webp" alt="staff">
-            </div>
-            <div class="message__staff-contents img up-4">
-              <img src="img/benefits04.webp" alt="staff">
-            </div>
-            <div class="message__staff-contents img up-5">
-              <img src="img/benefits05.webp" alt="staff">
-            </div>
-            <div class="message__staff-contents img up-6">
-              <img src="img/benefits06.webp" alt="staff">
-            </div>
-            <div class="message__staff-contents img up-7">
-              <img src="img/benefits07.webp" alt="staff">
-            </div>
-            <div class="message__staff-contents img up-8">
-              <img src="img/benefits08.webp" alt="staff">
-            </div>
-            <div class="message__staff-contents img up-9">
-              <img src="img/benefits09.webp" alt="staff">
-            </div>
-            <div class="message__staff-contents img up-10">
-              <img src="img/benefits10.webp" alt="staff">
-            </div>
-            <div class="message__staff-contents img up-11">
-              <img src="img/benefits11.webp" alt="staff">
-            </div>
-            <div class="message__staff-contents img up-12">
-              <img src="img/benefits12.webp" alt="staff">
-            </div>
-          </div>
-        </div>
-        <div class="side-scroll sp">
-          <p>Scroll</p>
-          <img src="img/side-scroll.png" alt="side-scroll">
-        </div>
-        <div class="step__ttl message__ttl slide-ttl js-scrollAnimation">
-          <img src="img/benefits_pic.webp" alt="step" class="mb-20">
-        </div>
-
-      </div>
-    </section>
-
-    <section class="reason section-pd celebration" id="reason">
-      <div class="reason__inner contents-width">
-        <div class="reason__carrier img mb-100 a-section js-scrollAnimation pc_only">
-          <img src="img/celebrationmoney.png" alt="reason-carrier">
-        </div>
-        <div class="reason__carrier img mb-100 a-section js-scrollAnimation sp_only">
-          <img src="img/celebrationmoney_sp.png" alt="reason-carrier">
-        </div>
-      </div>
-      <div class="btn-wrapper insta__btn a-section js-scrollAnimation mb-50 is-animated">
-        <div class="cta-form">
-
-          <div class="btn_box">
-            <a href="https://page.line.me/484elera?openQrModal=true" class="a-btn baibu-btn f-40 flex-center">
-              <img src="img/line_icon.png" alt="スマホアイコン" class="btn-icon">
-              LINEで応募する
-              <img src="img/white-arrow.png" alt="white-arrow" class="arrow-icon">
-            </a>
-          </div>
-
-          <div class="btn_box">
-            <a href="#contact-form" class="b-btn baibu-btn f-40 flex-center">
-              <img src="img/mail_icon.png" alt="メールアイコン" class="btn-icon">
-              メールで応募する
-              <img src="img/white-arrow.png" alt="white-arrow" class="arrow-icon">
-            </a>
-          </div>
-
-        </div>
-      </div>
-
-      <p class="reason__txt f-26 a-section js-scrollAnimation" style="color: #fff;">
-        ※募集定員に達した場合、募集を締め切りますのでお早めにご応募ください。
-      </p>
-    </section>
-
-
-
-
-    <section class="global section-pd voice" id="voice">
-      <div class="global__inner">
-        <h2 class="sub-ttl f-60 mb-90 slide-ttl js-scrollAnimation benefits-ttl">なつめ鍼灸整骨院で働く<br class="sp">スタッフの声</h2>
-        <div class="global__map mb-100 a-section js-scrollAnimation pc_only">
-          <img src="img/voice01.webp" alt="map">
-        </div>
-        <div class="global__map mb-100 a-section js-scrollAnimation sp_only">
-          <img src="img/voice01_sp.webp" alt="map">
-        </div>
-        <div class="global__map mb-100 a-section js-scrollAnimation pc_only">
-          <img src="img/voice02.webp" alt="map">
-        </div>
-        <div class="global__map mb-100 a-section js-scrollAnimation sp_only">
-          <img src="img/voice02_sp.webp" alt="map">
-        </div>
-        <div class="global__map mb-100 a-section js-scrollAnimation pc_only">
-          <img src="img/voice03.webp" alt="map">
-        </div>
-        <div class="global__map mb-100 a-section js-scrollAnimation sp_only">
-          <img src="img/voice03_sp.webp" alt="map">
-        </div>
-        <div class="global__map mb-100 a-section js-scrollAnimation pc_only">
-          <img src="img/voice04.webp" alt="map">
-        </div>
-        <div class="global__map mb-100 a-section js-scrollAnimation sp_only">
-          <img src="img/voice04_sp.webp" alt="map">
-        </div>
-        <div class="global__map a-section js-scrollAnimation pc_only">
-          <img src="img/voice05.webp" alt="map">
-        </div>
-        <div class="global__map a-section js-scrollAnimation sp_only">
-          <img src="img/voice05_sp.webp" alt="map">
-        </div>
-      </div>
-    </section>
-
-    <section class="global section-pd messages">
-      <div class="global__inner">
-        <h2 class="sub-ttl f-60 mb-90 slide-ttl js-scrollAnimation message-ttl">代表メッセージ</h2>
-        <div class="global__map a-section js-scrollAnimation pc_only">
-          <img src="img/message.png" alt="map">
-        </div>
-        <div class="global__map a-section js-scrollAnimation sp_only">
-          <img src="img/message_sp.png" alt="map">
-        </div>
-      </div>
-    </section>
-
-
-    <section class="global section-pd voice" id="flow">
-      <div class="global__inner">
-        <h2 class="sub-ttl f-60 mb-90 slide-ttl js-scrollAnimation benefits-ttl">1日の業務の流れ</h2>
-        <div class="global__map a-section js-scrollAnimation pc_only">
-          <img src="img/flow.png" alt="map">
-        </div>
-        <div class="global__map a-section js-scrollAnimation sp_only">
-          <img src="img/flow_sp.png" alt="map">
-        </div>
-      </div>
-    </section>
-
-    <section class="step section-pd bg-dairi growth" style="background-color: #fff;">
-      <div class="step__inner">
-        <div class="step__ttl slide-ttl js-scrollAnimation">
-          <img src="img/staff.png" alt="step" class="mb-20">
-        </div>
-        <div class="step__container img a-section js-scrollAnimation pc_only">
-          <img src="img/staff_frame.webp" alt="step-img">
-        </div>
-        <div class="step__container img a-section js-scrollAnimation sp_only">
-          <img src="img/staff_frame_sp.webp" alt="step-img">
-        </div>
-      </div>
-    </section>
-
-
-    <section class="step section-pd bg-dairi growth">
-      <div class="step__inner">
-        <div class="step__ttl slide-ttl js-scrollAnimation">
-          <img src="img/growth_title.png" alt="step" class="mb-20">
-        </div>
-        <div class="step__container img a-section js-scrollAnimation pc_only">
-          <img src="img/growth_main.png" alt="step-img">
-        </div>
-        <div class="step__container img a-section js-scrollAnimation sp_only">
-          <img src="img/growth_main_sp.png" alt="step-img">
-        </div>
-      </div>
-    </section>
-
-
-
-
-    <section class="global section-pd recruitment" id="boshuu">
-      <div class="global__inner">
-        <h2 class="sub-ttl f-60 mb-90 slide-ttl js-scrollAnimation recruitment-ttl">募集要項</h2>
-        <div class="global__map a-section js-scrollAnimation pc_only">
-          <img src="img/recruitment.webp" alt="map">
-        </div>
-        <div class="global__map a-section js-scrollAnimation sp_only">
-          <img src="img/recruitment_sp.webp" alt="map">
-        </div>
-      </div>
-    </section>
-
-
-
-
-
-
-
-
-    <section class="global section-pd flows">
-      <div class="global__inner">
-        <h2 class="sub-ttl f-60 mb-90 slide-ttl js-scrollAnimation flows-ttl">応募から入社までの流れ</h2>
-        <div class="global__map a-section js-scrollAnimation pc_only">
-          <img src="img/flows.webp" alt="map">
-        </div>
-        <div class="global__map a-section js-scrollAnimation sp_only">
-          <img src="img/flows_sp.webp" alt="map">
-        </div>
-      </div>
-    </section>
-
-
-
-    <section class="global section-pd recruitment">
-      <div class="global__inner">
-        <h2 class="sub-ttl f-60 mb-90 slide-ttl js-scrollAnimation recruitment-ttl">よくある質問</h2>
-        <div id="faq" class="content">
-          <div class="f19ib2oq">
-            <div class="body">
-              <div class="items">
-                <details class="item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-                  <summary class="question" itemprop="name">
-                    <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M21.0108 16.62C21.5008 16.13 21.5008 15.34 21.0108 14.85L12.7008 6.54C12.3108 6.15 11.6808 6.15 11.2908 6.54L2.98078 14.85C2.49078 15.34 2.49078 16.13 2.98078 16.62C3.47078 17.11 4.26078 17.11 4.75078 16.62L12.0008 9.38L19.2508 16.63C19.7308 17.11 20.5308 17.11 21.0108 16.62Z"
-                        fill="#1E40CA"></path>
-                    </svg>
-                    セラピストとしての経験が浅いですが大丈夫ですか？
-                    <!-- -->
-                  </summary>
-                  <div class="answer" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div class="content" itemprop="text">
-                      <p class="text">もちろん、大丈夫です！実際に入社しているスタッフは、未経験もしくは経験年数5年以内のスタッフのみ。さらに技術を磨くために日々努力されています。</p>
-                    </div>
-                  </div>
-                </details>
-                <details class="item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-                  <summary class="question" itemprop="name">
-                    <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M21.0108 16.62C21.5008 16.13 21.5008 15.34 21.0108 14.85L12.7008 6.54C12.3108 6.15 11.6808 6.15 11.2908 6.54L2.98078 14.85C2.49078 15.34 2.49078 16.13 2.98078 16.62C3.47078 17.11 4.26078 17.11 4.75078 16.62L12.0008 9.38L19.2508 16.63C19.7308 17.11 20.5308 17.11 21.0108 16.62Z"
-                        fill="#1E40CA"></path>
-                    </svg>
-                    独立を視野に入れていますが入社しても大丈夫ですか？
-                    <!-- -->
-                  </summary>
-                  <div class="answer" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div class="content" itemprop="text">
-                      <p class="text">
-                        はい、大丈夫です！実際に独立志望のスタッフが2名おります。知識や技術だけでなく経営ノウハウもしっかりお伝えしますので、将来的に独立をしたい方にはぴったりの環境だと思います。</p>
-                    </div>
-                  </div>
-                </details>
-                <details class="item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-                  <summary class="question" itemprop="name">
-                    <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M21.0108 16.62C21.5008 16.13 21.5008 15.34 21.0108 14.85L12.7008 6.54C12.3108 6.15 11.6808 6.15 11.2908 6.54L2.98078 14.85C2.49078 15.34 2.49078 16.13 2.98078 16.62C3.47078 17.11 4.26078 17.11 4.75078 16.62L12.0008 9.38L19.2508 16.63C19.7308 17.11 20.5308 17.11 21.0108 16.62Z"
-                        fill="#1E40CA"></path>
-                    </svg>
-                    1日でどれくらいの施術をしますか？
-                    <!-- -->
-                  </summary>
-                  <div class="answer" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div class="content" itemprop="text">
-                      <p class="text">12名前後の方を施術してもらいます。当院では40分1枠としており、患者様としっかり向き合いながら施術できます。</p>
-                    </div>
-                  </div>
-                </details>
-                <details class="item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-                  <summary class="question" itemprop="name">
-                    <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M21.0108 16.62C21.5008 16.13 21.5008 15.34 21.0108 14.85L12.7008 6.54C12.3108 6.15 11.6808 6.15 11.2908 6.54L2.98078 14.85C2.49078 15.34 2.49078 16.13 2.98078 16.62C3.47078 17.11 4.26078 17.11 4.75078 16.62L12.0008 9.38L19.2508 16.63C19.7308 17.11 20.5308 17.11 21.0108 16.62Z"
-                        fill="#1E40CA"></path>
-                    </svg>
-                    最短でどれくらいの期間で昇格した実績がありますか？
-                    <!-- -->
-                  </summary>
-                  <div class="answer" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div class="content" itemprop="text">
-                      <p class="text">最短1年で院長まで昇格したスタッフがおります。評価基準を明確に定めておりますので、少しずつ仕事を覚えていただき、知識・技術を習得できれば誰でも昇格できます。</p>
-                    </div>
-                  </div>
-                </details>
-                <details class="item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-                  <summary class="question" itemprop="name">
-                    <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M21.0108 16.62C21.5008 16.13 21.5008 15.34 21.0108 14.85L12.7008 6.54C12.3108 6.15 11.6808 6.15 11.2908 6.54L2.98078 14.85C2.49078 15.34 2.49078 16.13 2.98078 16.62C3.47078 17.11 4.26078 17.11 4.75078 16.62L12.0008 9.38L19.2508 16.63C19.7308 17.11 20.5308 17.11 21.0108 16.62Z"
-                        fill="#1E40CA"></path>
-                    </svg>
-                    残業は月にどれくらいありますか？
-                    <!-- -->
-                  </summary>
-                  <div class="answer" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div class="content" itemprop="text">
-                      <p class="text">平均〇〇時間程度あります。残業代の全額支給はもちろんのこと、なるべく残業が発生しないよう勤務体制の整備をしていきたいと考えています。</p>
-                    </div>
-                  </div>
-                </details>
-                <details class="item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-                  <summary class="question" itemprop="name">
-                    <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M21.0108 16.62C21.5008 16.13 21.5008 15.34 21.0108 14.85L12.7008 6.54C12.3108 6.15 11.6808 6.15 11.2908 6.54L2.98078 14.85C2.49078 15.34 2.49078 16.13 2.98078 16.62C3.47078 17.11 4.26078 17.11 4.75078 16.62L12.0008 9.38L19.2508 16.63C19.7308 17.11 20.5308 17.11 21.0108 16.62Z"
-                        fill="#1E40CA"></path>
-                    </svg>
-                    有給休暇はいつから付与されますか？
-                    <!-- -->
-                  </summary>
-                  <div class="answer" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div class="content" itemprop="text">
-                      <p class="text">入社後6ヶ月で10日付与されます。その後は毎年付与されます。</p>
-                    </div>
-                  </div>
-                </details>
-                <details class="item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-                  <summary class="question" itemprop="name">
-                    <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M21.0108 16.62C21.5008 16.13 21.5008 15.34 21.0108 14.85L12.7008 6.54C12.3108 6.15 11.6808 6.15 11.2908 6.54L2.98078 14.85C2.49078 15.34 2.49078 16.13 2.98078 16.62C3.47078 17.11 4.26078 17.11 4.75078 16.62L12.0008 9.38L19.2508 16.63C19.7308 17.11 20.5308 17.11 21.0108 16.62Z"
-                        fill="#1E40CA"></path>
-                    </svg>
-                    有給休暇を取ることはできますか？
-                    <!-- -->
-                  </summary>
-                  <div class="answer" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div class="content" itemprop="text">
-                      <p class="text">もちろん可能です！有給休暇は積極的に取っていただき、仕事とプライベートを充実させてください。最低でも5日は必ず取得してもらっています。</p>
-                    </div>
-                  </div>
-                </details>
-                <details class="item" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-                  <summary class="question" itemprop="name">
-                    <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M21.0108 16.62C21.5008 16.13 21.5008 15.34 21.0108 14.85L12.7008 6.54C12.3108 6.15 11.6808 6.15 11.2908 6.54L2.98078 14.85C2.49078 15.34 2.49078 16.13 2.98078 16.62C3.47078 17.11 4.26078 17.11 4.75078 16.62L12.0008 9.38L19.2508 16.63C19.7308 17.11 20.5308 17.11 21.0108 16.62Z"
-                        fill="#1E40CA"></path>
-                    </svg>
-                    産休や育休を取ることができますか？
-                    <!-- -->
-                  </summary>
-                  <div class="answer" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div class="content" itemprop="text">
-                      <p class="text">もちろん取得できます！産休でお休みされていた方がおりましたが、育児が落ち着いて復職してくれた方もいます。</p>
-                    </div>
-                  </div>
-                </details>
+          <!-- .container -->
+        </header>
+        <!-- .site-header -->
+        <!-- スワイプ用 -->
+        <div id="main-visual" class="section-main-visual">
+          <!-- .main-visual-text -->
+          <div class="main-visual-demo animated">
+            <!-- .main-visual-balloon -->
+            <div class="main-visual-right">
+              <div class="main-visual-news">
+                <img src="img/fv_pic.png" alt="速報!導入企業様でCTAクリック率277%UP、CVR248%UP" />
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
 
-
-
-
-    <section class="global section-pd flows">
-      <div class="global__inner">
-        <h2 class="sub-ttl f-60 mb-90 slide-ttl js-scrollAnimation flows-ttl">なつめ鍼灸整骨院について</h2>
-        <div class="m1000">
-          <div class="footinn">
-            <ul class="footmap">
-              <li class="item" id="info01">
-                <div class="flexsb">
-                  <div class="footmap-info w30">
-                    <div class="pic"><img src="img/39a9c4fc674fac1b8c28443585c0c1c2.webp" alt="高松市, 木太町, 整骨院"></div>
-                    <h3 class="tit">なつめ鍼灸整骨院 木太院</h3>
-                    <div class="address">〒760-0080<br>香川県高松市木太町1861-12<br>
-                      琴電長尾線 林道駅から徒歩7分</div>
-
-                  </div>
-                  <div class="footmap-map w66">
-                    <div class="map"><iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3294.9472791831386!2d134.070419!3d34.326362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3553eb2a4fa2edf9:0x3aa7563a1865b142!2z44Gq44Gk44KB6Y2854G45pW06aqo6Zmi!5e0!3m2!1sja!2sus!4v1603946163427!5m2!1sja!2sus"
-                        width="600" height="450" frameborder="0" style="border: 0" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe></div>
-                  </div>
-                </div>
-              </li>
-              <li class="item" id="info02">
-                <div class="flexsb">
-                  <div class="footmap-info w30">
-                    <div class="pic"><img src="img/5b41be8c9a63d0d0565c0dc26121ad98.jpg" alt="高松市, 仏生山町, 整体"></div>
-                    <h3 class="tit">なつめ鍼灸整骨院 仏生山院</h3>
-                    <div class="address mt20">〒761-8078<br>香川県高松市仏生山町甲42-1<br>
-                      琴電琴平線 仏生山駅から徒歩9分
-                    </div>
-
-                  </div>
-                  <div class="footmap-map w66">
-                    <div class="map"><iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13185.951203722807!2d134.0390218!3d34.2871112!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3553c10008a409e1:0x8d8514c64f82e789!2z44Gq44Gk44KB5pW05L2T6ZmiIOS7j-eUn-WxsemZog!5e0!3m2!1sja!2sjp!4v1710296846117!5m2!1sja!2sjp"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-                  </div>
-                </div>
-              </li>
-            </ul>
+      <!-- 過去取引実績 -->
+      <section id="news" class="news">
+        <div class="c_top_customer__performance c_performance l_cs_pc_bg l_cs_sp">
+          <div class="c_performance__inner">
+            <h3 class="c_performance__ttl c_h3_1 u_txt_16 u_bold u_ta_c">＜過去取引実績＞</h3>
+            <picture class="c_performance__img u_ta_c">
+              <source srcset="img/transaction_logos_pc.png" media="(min-width: 721px)">
+              <img loading="lazy" src="img/transaction_logos_pc.png" alt="取引実績企業一覧" onmousedown="return false"
+                onselectstart="return false" oncontextmenu="return false">
+            </picture>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-
-
-
-
-    <section class="step section-pd bg-dairi contact contact_space" id="contact-form">
-      <div class="step__inner">
-        <div class="step__ttl slide-ttl js-scrollAnimation contactspace">
-          <img src="img/contact.png" alt="step" class="mb-20">
+      <!-- 自信を持って集客できるイベントを開催したい -->
+      <section id="possible" class="possible">
+        <div>
+          <h2 class="section-title">「自信を持って集客できるイベントを開催したい。」</h2>
+          <div class="change-type-usage">
+            <p>
+              <span>その想い、ぜひハレガケにお任せください。</span>
+            </p>
+          </div>
+          <p class="price-sub-title">全国<span class="keyword">700件以上</span>の実績をもとに、効果的なイベントを実現します。<br>ハレガケの「地域活性化 ×
+            謎解き」なら、どんなニーズにも対応可能。<br>
+            地域の課題に寄り添い、多くの人に愛され、
+            <br>
+            <span class="keyword">数字につながる成果</span>を形にします。
+          </p>
         </div>
-        <section class="list-page__main">
-          <section class="l-form-container">
-            <form action="send.php" method="POST" enctype="application/x-www-form-urlencoded" class="js__form" data-gtm-form-interact-id="0">
-              <div class="l-form-container__inner">
-                <div class="brick-form">
-                  <div class="brick-form__content">
-                    <div class="brick-form__block brick-form__block-step1">
+      </section>
 
-                      <!-- 氏名 -->
-                      <div
-                        class="brick-form__row brick-form__row--step-input brick-form__row--required brick-form__row-name-name01">
-                        <div class="brick-form__row-header">
-                          <h4 class="brick-form__label">
-                            <label for="brick-form__field-name-name01">氏名</label>
-                          </h4>
-                        </div>
-                        <div class="brick-form__row-body">
-                          <div class="brick-form__field-group">
-                            <div
-                              class="brick-form__field-unit brick-form__field-unit-text brick-form__field-unit--step-input brick-form__field-unit--required brick-form__field-unit-name-name01">
-                              <div class="brick-form__field">
-                                <input id="brick-form__field-name-name01" class="brick-form__field-name-name01"
-                                  type="text" name="name01" value="" placeholder="例）山田 花子" required autocomplete="name">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="brick-form__message"></div>
-                        </div>
-                      </div>
-
-                      <!-- 携帯番号 -->
-                      <div
-                        class="brick-form__row brick-form__row--step-input brick-form__row--required brick-form__row-name-tel">
-                        <div class="brick-form__row-header">
-                          <h4 class="brick-form__label">
-                            <label for="brick-form__field-name-tel">携帯番号</label>
-                          </h4>
-                        </div>
-                        <div class="brick-form__row-body">
-                          <div class="brick-form__field-group">
-                            <div
-                              class="brick-form__field-unit brick-form__field-unit-tel brick-form__field-unit--required brick-form__field-unit-name-tel">
-                              <div class="brick-form__field">
-                                <input id="brick-form__field-name-tel" class="brick-form__field-name-tel" type="tel"
-                                  name="tel" value="" placeholder="例）01234567890" inputmode="tel" pattern="[0-9\-]*"
-                                  autocomplete="tel-national" required>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="brick-form__message"></div>
-                        </div>
-                      </div>
-
-                      <!-- メールアドレス -->
-                      <div
-                        class="brick-form__row brick-form__row--step-input brick-form__row--required brick-form__row-name-email">
-                        <div class="brick-form__row-header">
-                          <h4 class="brick-form__label">
-                            <label for="brick-form__field-name-email">メールアドレス</label>
-                          </h4>
-                        </div>
-                        <div class="brick-form__row-body">
-                          <div class="brick-form__field-group">
-                            <div
-                              class="brick-form__field-unit brick-form__field-unit-email brick-form__field-unit--required brick-form__field-unit-name-email">
-                              <div class="brick-form__field">
-                                <input id="brick-form__field-name-email" class="brick-form__field-name-email"
-                                  type="email" name="email" value="" placeholder="例）yourname@yourdomain.jp"
-                                  inputmode="email" autocomplete="email" required>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="brick-form__message"></div>
-                        </div>
-                      </div>
-
-                      <!-- 応募職種（ラジオボタン） -->
-                      <div class="brick-form__row brick-form__row--step-input brick-form__row--required">
-                        <div class="brick-form__row-header">
-                          <h4 class="brick-form__label"><span>応募職種</span></h4>
-                        </div>
-                        <div class="brick-form__row-body">
-                          <div class="brick-form__field-group">
-                            <div
-                              class="brick-form__field-unit brick-form__field-unit-radio brick-form__field-unit--optional">
-                              <div class="brick-form__field">
-                                <div class="brick-form__options brick-form__options-radio">
-                                  <div class="brick-form__options-item">
-                                    <input id="qualification-0" type="radio" name="qualification" value="柔道整復師" required>
-                                    <label for="qualification-0">柔道整復師</label>
-                                  </div>
-                                  <div class="brick-form__options-item">
-                                    <input id="qualification-1" type="radio" name="qualification" value="整体師" required>
-                                    <label for="qualification-1">整体師</label>
-                                  </div>
-                                  <div class="brick-form__options-item">
-                                    <input id="qualification-2" type="radio" name="qualification" value="鍼灸師" required>
-                                    <label for="qualification-2">鍼灸師</label>
-                                  </div>
-                                  <div class="brick-form__options-item">
-                                    <input id="qualification-3" type="radio" name="qualification" value="理学療法士" required>
-                                    <label for="qualification-3">理学療法士</label>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="brick-form__message"></div>
-                        </div>
-                      </div>
-
-                      <!-- 経験年数（ラジオボタン） -->
-                      <div class="brick-form__row brick-form__row--step-input brick-form__row--required">
-                        <div class="brick-form__row-header">
-                          <h4 class="brick-form__label"><span>経験年数</span></h4>
-                        </div>
-                        <div class="brick-form__row-body">
-                          <div class="brick-form__field-group">
-                            <div
-                              class="brick-form__field-unit brick-form__field-unit-radio brick-form__field-unit--optional">
-                              <div class="brick-form__field">
-                                <div class="brick-form__options brick-form__options-radio">
-                                  <div class="brick-form__options-item">
-                                    <input id="experience-0" type="radio" name="experience" value="新卒" required>
-                                    <label for="experience-0">新卒</label>
-                                  </div>
-                                  <div class="brick-form__options-item">
-                                    <input id="experience-1" type="radio" name="experience" value="未経験" required>
-                                    <label for="experience-1">未経験</label>
-                                  </div>
-                                  <div class="brick-form__options-item">
-                                    <input id="experience-2" type="radio" name="experience" value="経験者" required>
-                                    <label for="experience-2">経験者</label>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="brick-form__message"></div>
-                        </div>
-                      </div>
-
-                      <!-- 備考欄 -->
-                      <div
-                        class="brick-form__row brick-form__row--step-input brick-form__row--optional brick-form__row-name-pr">
-                        <div class="brick-form__row-header">
-                          <h4 class="brick-form__label">
-                            <label for="brick-form__field-name-pr">備考欄</label>
-                          </h4>
-                        </div>
-                        <div class="brick-form__row-body">
-                          <div class="brick-form__field-group">
-                            <div
-                              class="brick-form__field-unit brick-form__field-unit-textarea brick-form__field-unit--optional">
-                              <div class="brick-form__field">
-                                <textarea id="brick-form__field-name-pr" class="brick-form__field-name-pr" name="pr"
-                                  placeholder="ご自由にご記入ください"></textarea>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="brick-form__message"></div>
-                        </div>
-                      </div>
-
-                    </div> <!-- /.brick-form__block -->
-                  </div> <!-- /.brick-form__content -->
-
-                  <div class="brick-buttons">
-                    <div class="brick-buttons__button-unit brick-buttons__button-unit-submit">
-                      <button class="brick-buttons__button-submit js__brick-buttons__button-submit"
-                        style="pointer-events: auto;">
-                        <span class="brick-buttons__button-inner">上記内容で応募する</span>
-                      </button>
-                    </div>
-                  </div>
-
-                </div> <!-- /.brick-form -->
-              </div> <!-- /.l-form-container__inner -->
-            </form>
-          </section> <!-- /.l-form-container -->
-        </section>
-
-      </div>
-    </section>
-
-
-
-
-    <footer class="l-footer">
-
-      <div class="l-footer__company">
-        <div class="p-item-logo">
-          <a href="#">
-            <div class="p-item-logo__logo"><img src="img/f-logo.png" alt="">
-            </div>
-          </a>
-        </div>
-        <!-- /.p-item-logo -->
-        <div class="p-item-info">
-          <a href="#">
-            <p class="p-item-info__address p-item-info__tel p-tel">会社概要</p>
-          </a>
-          <div class="p-item-info__access pc_only">|</div>
-          <div class="p-item-info__tel p-tel">
-            <a href="#">プライバシーポリシー</a>
+      <!-- cta -->
+      <section id="possible" class="ctaframe" style="background-color:#ffe572;">
+        <div class="overlayArea">
+          <picture>
+            <img src="img/cta_bg.webp" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+          <div class="btn-frame02">
+            <a href="https://lin.ee/27Fst0t" class="overlayItem cta01__btn--01">
+              <picture>
+                <source srcset="img/cta01.png" type="image/webp">
+                <img src="img/cta01.png" alt="今すぐLINEで仮審査を申し込む" loading="lazy">
+              </picture>
+            </a>
+            <a href="#contact" class="overlayItem cta01__btn--01">
+              <picture>
+                <source srcset="img/cta02.png" type="image/webp">
+                <img src="img/cta02.png" alt="仮審査のことがよくわからない… 無料お問い合わせ" loading="lazy">
+              </picture>
+            </a>
           </div>
         </div>
-      </div>
+      </section>
 
-      <p class="l-footer__copy">Copyright© 2025 なつめ鍼灸整骨院 All Rights Reserved.</p>
-    </footer>
-  </main>
+      <!-- ハレガケなら実現できる1 -->
+      <section id="realization" class="ctaframe">
+        <div class="overlayArea">
+          <picture>
+            <img src="img/realization01.png" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+        </div>
+      </section>
+      <!-- ハレガケなら実現できる2 -->
+      <section class="ctaframe">
+        <div class="overlayArea">
+          <picture>
+            <img src="img/realization02.png" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+        </div>
+      </section>
+      <!-- ハレガケなら実現できる3 -->
+      <section class="ctaframe">
+        <div class="overlayArea">
+          <picture>
+            <img src="img/realization03.png" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+        </div>
+      </section>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="https://naoru-recruit.com/wp-content/themes/NAORU/scripts/main.js"></script>
-  <script type="text/javascript"
-    src="https://naoru-recruit.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
-  <script type="text/javascript"
-    src="https://naoru-recruit.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+      <!-- cta -->
+      <section id="possible" class="ctaframe" style="background-color:#ffe572;">
+        <div class="overlayArea">
+          <picture>
+            <img src="img/cta_bg.webp" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+          <div class="btn-frame02">
+            <a href="https://lin.ee/27Fst0t" class="overlayItem cta01__btn--01">
+              <picture>
+                <source srcset="img/cta01.png" type="image/webp">
+                <img src="img/cta01.png" alt="今すぐLINEで仮審査を申し込む" loading="lazy">
+              </picture>
+            </a>
+            <a href="#contact" class="overlayItem cta01__btn--01">
+              <picture>
+                <source srcset="img/cta02.png" type="image/webp">
+                <img src="img/cta02.png" alt="仮審査のことがよくわからない… 無料お問い合わせ" loading="lazy">
+              </picture>
+            </a>
+          </div>
+        </div>
+      </section>
 
+      <!-- ファンサービス -->
+      <section id="fanservice" class="ctaframe">
+        <div class="overlayArea">
+          <picture>
+            <img src="img/fanservice.png" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+        </div>
+      </section>
 
-  <script type="text/javascript" id="contact-form-7-js-translations">
-    /* <![CDATA[ */
-    (function (domain, translations) {
-      var localeData = translations.locale_data[domain] || translations.locale_data.messages;
-      localeData[""].domain = domain;
-      wp.i18n.setLocaleData(localeData, domain);
-    }
-    )("contact-form-7", {
-      "translation-revision-date": "2024-07-17 08:16:16+0000",
-      "generator": "GlotPress\/4.0.1",
-      "domain": "messages",
-      "locale_data": {
-        "messages": {
-          "": {
-            "domain": "messages",
-            "plural-forms": "nplurals=1; plural=0;",
-            "lang": "ja_JP"
-          },
-          "This contact form is placed in the wrong place.": ["\u3053\u306e\u30b3\u30f3\u30bf\u30af\u30c8\u30d5\u30a9\u30fc\u30e0\u306f\u9593\u9055\u3063\u305f\u4f4d\u7f6e\u306b\u7f6e\u304b\u308c\u3066\u3044\u307e\u3059\u3002"],
-          "Error:": ["\u30a8\u30e9\u30fc:"]
+      <!-- メリット1 -->
+      <section id="merit" class="ctaframe" style="background-color:#faf9f7;">
+        <div class="overlayArea">
+          <picture>
+            <img src="img/merit01.png" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+        </div>
+      </section>
+      <!-- メリット2 -->
+      <section class="ctaframe" style="background-color:#faf9f7;">
+        <div class="overlayArea">
+          <picture>
+            <img src="img/merit02.png" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+        </div>
+      </section>
+      <!-- メリット3 -->
+      <section class="ctaframe" style="background-color:#faf9f7;">
+        <div class="overlayArea">
+          <picture>
+            <img src="img/merit03.png" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+        </div>
+      </section>
+
+      <!-- 過去実績1 -->
+      <section id="achievements" class="ctaframe" style="background-color:#fdf9ef;">
+        <div class="overlayArea">
+          <picture>
+            <img src="img/achievements01.webp" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+        </div>
+      </section>
+      <!-- 過去実績2 -->
+      <section class="ctaframe" style="background-color:#fdf9ef;">
+        <div class="overlayArea">
+          <picture>
+            <img src="img/achievements02.webp" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+        </div>
+      </section>
+
+      <!-- 担当者様からの声 -->
+      <section id="voice" class="ctaframe">
+        <div class="overlayArea">
+          <picture>
+            <img src="img/voice.webp" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+        </div>
+      </section>
+
+      <!-- cta -->
+      <section id="cta" class="ctaframe" style="background-color:#ffe572;">
+        <div class="overlayArea">
+          <picture>
+            <img src="img/cta_bg.webp" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+          <div class="btn-frame02">
+            <a href="https://lin.ee/27Fst0t" class="overlayItem cta01__btn--01">
+              <picture>
+                <source srcset="img/cta01.png" type="image/webp">
+                <img src="img/cta01.png" alt="今すぐLINEで仮審査を申し込む" loading="lazy">
+              </picture>
+            </a>
+            <a href="#contact" class="overlayItem cta01__btn--01">
+              <picture>
+                <source srcset="img/cta02.png" type="image/webp">
+                <img src="img/cta02.png" alt="仮審査のことがよくわからない… 無料お問い合わせ" loading="lazy">
+              </picture>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- サンプル問題1 -->
+      <section id="sample" class="ctaframe"
+        style="background: url(img/sample_bg.webp) center center / cover no-repeat;">
+        <div class="overlayArea">
+          <picture>
+            <img src="img/sample.webp" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+        </div>
+      </section>
+      <!-- サンプル問題2 -->
+      <section class="ctaframe"
+        style="background: url(img/sample_bg.webp) center center / cover no-repeat;">
+        <div class="wrapper724">
+          <div class="col2 -left">
+            <figure class="col2__img _border"><img src="img/level1.png" alt="" width="686" height="514" loading="lazy">
+              <details class="accordion">
+                <summary class="accordion__title"><img src="img/sample_icon.png" alt="" class="accordion__img">答えを見る<span
+                    class="accordion__icon" aria-hidden="true"></span></summary>
+                <div class="accordion__panel">
+                  <div class="col2 -left">
+                    <div class="col2__txt">
+                      <p><span>❶ </span>答えは「くま」</p>
+                      <p class="txt-note">解説：イラストを言葉に直すと、「さくら」→「さら」、「くすり」→
+                        「くり」と、真ん中の文字を消す法則のようです。「くるま」の真ん中
+                        の文字を消すと、答えは「くま」です。</p>
+                    </div>
+                  </div>
+                </div>
+              </details>
+            </figure>
+            <figure class="col2__img _border"><img src="img/level2.png" alt="" width="686" height="514" loading="lazy">
+              <details class="accordion">
+                <summary class="accordion__title"><img src="img/sample_icon.png" alt="" class="accordion__img">答えを見る<span
+                    class="accordion__icon" aria-hidden="true"></span></summary>
+                <div class="accordion__panel">
+                  <div class="col2 -left">
+                    <div class="col2__txt">
+                      <p><span>❷ </span>答えは「あいかぎ」</p>
+                      <p class="txt-note">解説：数字にカナが入るとすると、イラストから「きく」「いう」「かく」
+                        という動詞が思い浮かびます。2～6にちょうど当てはまりそうです。1が
+                        このままではわかりませんが、左が五十音表の一部にであることから、1は
+                        「あ」です。よって答えは「あいかぎ」です。</p>
+                    </div>
+                  </div>
+                </div>
+              </details>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- 開催までの流れ1 -->
+      <section id="flow" class="ctaframe" style="background: url(img/flow.webp) center center / cover no-repeat;">
+      </section>
+      <!-- 開催までの流れ2 -->
+      <section class="ctaframe" style="background: url(img/flow02.webp) center center / cover no-repeat;">
+      </section>
+
+      <!-- cta -->
+      <section id="possible" class="ctaframe" style="background-color:#ffe572;">
+        <div class="overlayArea">
+          <picture>
+            <img src="img/cta_bg.webp" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+          <div class="btn-frame02">
+            <a href="https://lin.ee/27Fst0t" class="overlayItem cta01__btn--01">
+              <picture>
+                <source srcset="img/cta01.png" type="image/webp">
+                <img src="img/cta01.png" alt="今すぐLINEで仮審査を申し込む" loading="lazy">
+              </picture>
+            </a>
+            <a href="#contact" class="overlayItem cta01__btn--01">
+              <picture>
+                <source srcset="img/cta02.png" type="image/webp">
+                <img src="img/cta02.png" alt="仮審査のことがよくわからない… 無料お問い合わせ" loading="lazy">
+              </picture>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- よくあるご質問 -->
+      <section id="possible" class="ctaframe" style="background-color:#fffaec;">
+        <div class="overlayArea">
+          <picture>
+            <img src="img/contact.webp" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+        </div>
+      </section>
+
+      <!-- 会社概要 -->
+      <section id="possible" class="ctaframe" style="background-color:#fff;">
+        <div class="overlayArea">
+          <picture>
+            <img src="img/company.webp" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+        </div>
+      </section>
+
+      <!-- cta -->
+      <section id="actions" class="section-actions" style="flex-direction: column; background-color:#fff;">
+        <div class=" overlayArea">
+          <picture>
+            <img src="img/cta_bg.webp" alt="自社ローンでのお車購入ならお任せください！スタッフが親身になって最後まで丁寧にサポートいたします。">
+          </picture>
+          <div class="btn-frame02">
+            <a href="https://lin.ee/27Fst0t" class="overlayItem cta01__btn--01">
+              <picture>
+                <source srcset="img/cta01.png" type="image/webp">
+                <img src="img/cta01.png" alt="今すぐLINEで仮審査を申し込む" loading="lazy">
+              </picture>
+            </a>
+            <a href="#contact" class="overlayItem cta01__btn--01">
+              <picture>
+                <source srcset="img/cta02.png" type="image/webp">
+                <img src="img/cta02.png" alt="仮審査のことがよくわからない… 無料お問い合わせ" loading="lazy">
+              </picture>
+            </a>
+          </div>
+        </div>
+        <footer class="site-footer pc-only" style="width: 100%; margin-top: auto">
+          <div class="footer-copyright">Copyright © 株式会社ハレガケ All rights reserved.</div>
+        </footer>
+        <!-- .site-footer -->
+      </section>
+    </main>
+
+    <!-- .SP切り替え用 -->
+    <main class="sp-only">
+      <!-- ▼本番用タグ -->
+      <!-- <script src="https://lpcats.com/lpcats.js?lpid=9c247a4b-64fd-4005-a63c-b880a46e8028"></> -->
+      <script>
+        function loadScriptIfMobileWidth() {
+          // 既にスクリプトが追加されているかチェック
+          if (document.getElementById("lpcats_cv_script")) {
+            return; // 既にスクリプトが追加されている場合は何もしない
+          }
+
+          if (window.innerWidth <= 767) {
+            var script = document.createElement("script");
+            script.src =
+              "https://lpcats.com/lpcats.js?lpid=9c247a4b-64fd-4005-a63c-b880a46e8028";
+            script.id = "lpcats_cv_script"; // スクリプトにIDを付ける
+
+            // sp-onlyクラスを持つ<main>要素を取得
+            var spOnlyElement = document.querySelector("main.sp-only");
+            if (spOnlyElement) {
+              spOnlyElement.appendChild(script); // sp-only要素にスクリプトを追加
+            } else {
+              console.warn('No <main> element with class "sp-only" found.');
+            }
+          }
         }
-      },
-      "comment": {
-        "reference": "includes\/js\/index.js"
+
+        // ページが読み込まれた時にチェック
+        window.addEventListener("load", loadScriptIfMobileWidth);
+
+        // ウィンドウのサイズが変更された時にチェック
+        window.addEventListener("resize", loadScriptIfMobileWidth);
+      </script>
+    </main>
+  </div>
+
+  <main class="sp-only slider-wrapper">
+    <div class="slider-container">
+      <div class="slide"><img src="img/slider1.webp" alt="スライド1"></div>
+      <div class="slide"><img src="img/slider2.webp" alt="スライド2"></div>
+      <div class="slide"><img src="img/slider3.webp" alt="スライド3"></div>
+    </div>
+    
+    <nav class="sp-only" style="bottom: 0px;">
+      <ul>
+        <li>
+          <a href="#">
+            <img src="img/cta01_sp.png" alt="ご相談はこちら">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/cta02_sp.png" alt="DL資料はこちら">
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+  </main>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const swipeHeader = document.querySelector(".header_swip");
+      const mainContainer = document.querySelector(".main_container");
+
+      if (!swipeHeader || !mainContainer) {
+        console.log("Header or main container not found!");
+        return;
       }
+
+      // 1枚目のセクションを取得
+      const firstSection = document.querySelector("section:nth-of-type(1)");
+
+      if (!firstSection) {
+        console.log("First section not found!");
+        return;
+      }
+
+      mainContainer.addEventListener("scroll", function () {
+        const sectionTop = firstSection.getBoundingClientRect().top;
+        console.log("First section top position:", sectionTop);
+
+        // 1枚目が表示領域に入ったらヘッダーを表示
+        if (sectionTop <= 0) {
+          swipeHeader.classList.add("visible");
+          console.log("Header visible");
+        } else {
+          swipeHeader.classList.remove("visible");
+          console.log("Header hidden");
+        }
+      });
     });
-    /* ]]> */
   </script>
-
-
-  <script type="text/javascript"
-    src="https://naoru-recruit.com/wp-content/plugins/contact-form-7-multi-step-module/resources/cf7msm.min.js?ver=4.4"
-    id="cf7msm-js"></script>
-
 </body>
 
 </html>
