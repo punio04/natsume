@@ -7651,3 +7651,42 @@ a.header__ctt.flex-center.f-26.baibu-btn.flex-center {
   }
 
 }
+
+
+
+
+
+
+.scroll-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.scroll-track {
+  display: flex;
+  width: calc(300px * 20);
+  /* 画像幅 × 20枚 */
+  animation: scroll-left 60s linear infinite;
+}
+
+.scroll-item {
+  flex: 0 0 300px;
+  /* 画像の幅 */
+  margin-right: 20px;
+}
+
+.scroll-item img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
