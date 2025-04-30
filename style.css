@@ -7672,13 +7672,11 @@ a.header__ctt.flex-center.f-26.baibu-btn.flex-center {
 .scroll-item {
   flex: 0 0 300px;
   /* 画像の幅 */
-  margin-right: 20px;
 }
 
 .scroll-item img {
   width: 100%;
   display: block;
-  border-radius: 10px;
 }
 
 @keyframes scroll-left {
